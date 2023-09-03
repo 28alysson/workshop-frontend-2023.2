@@ -1,0 +1,105 @@
+body {
+    background-image: url(https://mcdn.wallpapersafari.com/medium/10/27/nNsKdM.jpg);
+    justify-content: center;
+}
+
+div#foto{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+input#inicio{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #000000;
+    height: 30px;
+    font: normal 14pt Arial;
+    box-shadow: inset;
+    width: 1230px;
+    border-radius: 5%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+input#galeria{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    font: normal 14pt Arial;
+    box-shadow: inset;
+    width: 1230px;
+    border-radius: 5%;
+    display: flex;
+    justify-content:center;
+    
+   
+}
+.conteiner{
+    display: flex;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div#elemento1{
+    color: rgb(255, 255, 255); 
+}
+div#elemento2{
+    color: rgb(255, 255, 255); 
+}
+div#elemento3{
+    color: rgb(255, 255, 255); 
+}
+div#elemento4{
+    color: rgb(255, 255, 255); 
+}
+div#elemento5{
+    color: rgb(255, 255, 255); 
+}
+div#elemento6{
+    color: rgb(255, 255, 255); 
+}
+img#principal{
+    
+    width: 400px;
+    animation: float 3s ease-in-out infinite;
+
+
+}
+img#banner{
+    width: 400px;
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+}
+
+.foto1{
+    width: 330px;
+}
+
+footer{
+    background-color: antiquewhite;
+    
+    text-align: center;
+}
+.conteiner1{
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
